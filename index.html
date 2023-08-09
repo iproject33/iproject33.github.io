@@ -1,19 +1,31 @@
 <!DOCTYPE html>
 
 <head>
-	<title>Hello World!</title>
-	<link rel="stylesheet" href="styles.css" />
+	<title>Podcasts from iproject33</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+		crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+	<script>
+		$(function () {
+			$("#NavBarContent").load("navigation/navbar.html");
+		});
+	</script>
 </head>
 
-<body>
-	<h1>Hello World!</h1>
-	<h2>Work in progress</h2>
-	<p>
-		<b>Dutch below</b>
-		<br />
-		I intend to use this GitHub page to write about the podcasts I listen to.
-	</p>
-	<p>Ik wil deze GitHub-pagina gebruiken om te schrijven over podcasts waarnaar ik luister.</p>
+<body class="container">
+	<div id="NavBarContent"></div>
+	<div class="px-4 py-5 my-5 text-center">
+		<h1 class="display-5 fw-bold text-body-emphasis">Hello world!</h1>
+		<div class="col-lg-6 mx-auto">
+			<p>
+				I intend to use this GitHub page to write about the podcasts I listen to.
+			</p>
+			<p>Ik wil deze GitHub-pagina gebruiken om te schrijven over podcasts waarnaar ik luister.</p>
+		</div>
+	</div>
 </body>
 
 </html>
